@@ -1,0 +1,100 @@
+.Navbar {
+    padding: 20px;    
+  background-color: #f4edeb;
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-left: 10px;
+      height: auto;
+      width: auto;
+  
+      h1 {
+        margin: 0;
+        font-size: 34px;
+        color:black;
+      }
+  
+      .filter-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+  
+        .filter-btn {
+          background: none;
+          border: none;
+          cursor: pointer;
+          font-size: 18px;
+  
+          i {
+            color: #9e4d39;
+          }
+        }
+  
+        .filter-select-data {
+          padding: 5px;
+          border: 1px solid #130e0e;
+          border-radius: 4px;
+          font-size: 16px;
+          
+          background-color: #66c4c4;
+        }
+      }
+    }
+  
+    .navbar {
+   
+    display: flex;
+    justify-content: space-around;
+      align-items: center;
+      font-weight: bold;
+      grid-template-columns: 90px 2fr 4fr 100px 150px 250px;
+      border: 1px solid black;
+      padding: 10px 5px;
+      gap: 0px;
+      background-color: #66c4c4;
+  
+      i {
+        margin-left: 5px;
+        color: #70210d;
+      }
+    }
+  
+    .employeedata {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin: 20px 10px 0px 10px;
+      padding: 10px 5px;
+  
+      .emp-data{
+       
+       align-items: center;
+       justify-content: space-between;
+        align-items: center;
+        gap: 120px;
+        margin-left: 0px;
+       
+        display: grid;
+        grid-template-columns: 100px 2fr 4fr 90px 130px 230px;
+        padding: 20px 20px 20px 50px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        width: 100%;
+        max-width: 1500px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+        .Emp-image {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  
