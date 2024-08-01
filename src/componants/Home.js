@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import './Home.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUpDown } from '@fortawesome/free-solid-svg-icons';
+
 
 
 const Home = () => {
@@ -112,7 +111,7 @@ const Home = () => {
 
                     {filteredData.map((item) => {
                         const age = new Date().getFullYear() - new Date(item.dateOfBirth).getFullYear();
-                        const genderInitial = item.gender.charAt(0).toUpperCase(); // Capitalize the first letter of gender
+                        const genderInitial = item.gender.charAt(0).toUpperCase(); 
                         return (
                             <div key={item.id} className="emp-data"> 
                               <div>0{item.id}</div>
